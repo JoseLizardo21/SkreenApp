@@ -92,4 +92,4 @@ Las próximas versiones incluirán soporte para monitores virtuales, mejoras de 
 ¿Quieres sumarte? Toda ayuda es bienvenida, revisa los repositorios y mandanos tu PR 🚀
 
 - 🖥️ [SkreenApp Desktop](https://github.com/JoseLizardo21/SkreenAppDesktop)
-- 📱 [SkreenApp Mobile](https://github.com/JoseLizardo21/SkreenApp)
+- 📱 [SkreenApp Mobile](https://github.com/JoseLizardo21/SkreenAppMobile)
