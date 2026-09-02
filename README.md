@@ -84,3 +84,12 @@ sudo dnf remove skreenapp
 🚧 En desarrollo activo.
 
 Las próximas versiones incluirán soporte para monitores virtuales, mejoras de rendimiento y compatibilidad con más distribuciones Linux.
+
+---
+
+## Colabora con el proyecto
+
+¿Quieres sumarte? Toda ayuda es bienvenida, revisa los repositorios y mandanos tu PR 🚀
+
+- 🖥️ [SkreenApp Desktop](https://github.com/JoseLizardo21/SkreenAppDesktop)
+- 📱 [SkreenApp Mobile](https://github.com/JoseLizardo21/SkreenApp)
