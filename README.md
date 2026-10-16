@@ -1,46 +1,46 @@
 # SkreenApp
 
-SkreenApp es una aplicación que permite utilizar un dispositivo Android como pantalla para un equipo Linux mediante una conexión USB.
+SkreenApp is an application that lets you use an Android device as a display for a Linux computer over a USB connection.
 
-El proyecto está compuesto por dos aplicaciones:
+The project consists of two applications:
 
-* **SkreenApp Desktop**: aplicación de escritorio para Linux.
-* **SkreenApp Mobile**: aplicación Android encargada de recibir la imagen y enviar los eventos táctiles al equipo.
+* **SkreenApp Desktop**: desktop application for Linux.
+* **SkreenApp Mobile**: Android application that receives the image and sends touch events back to the computer.
 
-Además de la transmisión de pantalla, SkreenApp permite interactuar con el sistema utilizando la pantalla táctil del dispositivo móvil.
+In addition to screen streaming, SkreenApp lets you interact with the system using the mobile device's touchscreen.
 
-Actualmente, el proyecto se encuentra en desarrollo activo y se están implementando nuevas funcionalidades, como la creación de monitores virtuales para ampliar el espacio de trabajo.
-
----
-
-## Características
-
-* Transmisión de pantalla de Linux a dispositivos Android.
-* Conexión mediante cable USB.
-* Soporte para interacción táctil desde el dispositivo móvil.
-* No requiere conexión Wi-Fi.
-* Baja latencia gracias a la comunicación por USB.
-* Próximamente: creación de monitores virtuales.
+The project is currently under active development, and new features are being implemented, such as creating virtual monitors to extend your workspace.
 
 ---
 
-## Requisitos
+## Features
 
-Para utilizar SkreenApp es necesario:
-
-* Instalar **SkreenApp Desktop** en el equipo Linux.
-* Instalar **SkreenApp Mobile** en el dispositivo Android.
-* Activar la **Depuración USB** en Android.
-* Permitir la conexión cuando Android solicite autorización para depuración USB.
+* Screen streaming from Linux to Android devices.
+* Connection via USB cable.
+* Touch interaction support from the mobile device.
+* No Wi-Fi connection required.
+* Low latency thanks to USB communication.
+* Coming soon: virtual monitor creation.
 
 ---
 
-## Instalación
+## Requirements
+
+To use SkreenApp you need to:
+
+* Install **SkreenApp Desktop** on the Linux computer.
+* Install **SkreenApp Mobile** on the Android device.
+* Enable **USB Debugging** on Android.
+* Allow the connection when Android asks for USB debugging authorization.
+
+---
+
+## Installation
 
 ### Debian / Ubuntu (`.deb`)
 
 ```bash
-sudo apt install ./skreenapp_0.1.0_amd64.deb
+sudo apt install ./skreenapp_0.1.1_amd64.deb
 ```
 
 ### Fedora / RPM (`.rpm`)
@@ -49,21 +49,21 @@ sudo apt install ./skreenapp_0.1.0_amd64.deb
 sudo dnf install ./skreenapp-0.1.0-1.fc43.x86_64.rpm
 ```
 
-### Aplicación Android
+### Android App
 
-Instale el APK de SkreenApp Mobile en su dispositivo Android.
-
----
-
-## Configuración de Android
-
-Antes de conectar el dispositivo, active la opción **Depuración USB** desde las Opciones de desarrollador.
-
-<img width="340" height="700" alt="Depuración USB" src="https://github.com/user-attachments/assets/161c1381-d8d7-430f-b50b-72da9386d7fa" />
+Install the SkreenApp Mobile APK on your Android device.
 
 ---
 
-## Desinstalación
+## Android Setup
+
+Before connecting the device, enable **USB Debugging** from Developer Options.
+
+<img width="340" height="700" alt="USB Debugging" src="https://github.com/user-attachments/assets/161c1381-d8d7-430f-b50b-72da9386d7fa" />
+
+---
+
+## Uninstallation
 
 ### Debian / Ubuntu (`.deb`)
 
@@ -79,17 +79,17 @@ sudo dnf remove skreenapp
 
 ---
 
-## Estado del proyecto
+## Project Status
 
-🚧 En desarrollo activo.
+🚧 Under active development.
 
-Las próximas versiones incluirán soporte para monitores virtuales, mejoras de rendimiento y compatibilidad con más distribuciones Linux.
+Upcoming releases will include virtual monitor support, performance improvements, and compatibility with more Linux distributions.
 
 ---
 
-## Colabora con el proyecto
+## Contributing
 
-¿Quieres sumarte? Toda ayuda es bienvenida, revisa los repositorios y mandanos tu PR 🚀
+Want to join? All help is welcome — check out the repositories and send us your PR 🚀
 
 - 🖥️ [SkreenApp Desktop](https://github.com/JoseLizardo21/SkreenAppDesktop)
 - 📱 [SkreenApp Mobile](https://github.com/JoseLizardo21/SkreenAppMobile)
